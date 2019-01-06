@@ -1,0 +1,27 @@
+#test_login:
+##[{username:"",password:"",toast:""},{username:"",password:"",toast:""}]
+#  -
+#    username: "17744407629"
+#    password: "654321"
+#    toast: "成功"
+#  -
+#    username: " 17744407629"
+#    password: "654321"
+#    toast: "不存在"
+
+test_login:
+#  tp-login-01:
+#    username: "17744407629 "
+#    password: "654321"
+#    toast: "成功"
+#    screenshot_name: "tp-login-01"
+  tp-login-02:
+    username: " 17744407629"
+    password: "654321"
+    toast: "不存在"
+    screenshot_name: "tp-login-02"
+#  tp-login-03:
+#    username: "17744407629"
+#    password: "654321"
+#    toast: "成功"
+#    screenshot_name: "tp-login-03"
